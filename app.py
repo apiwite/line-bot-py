@@ -32,6 +32,7 @@ from linebot.utils import PY3
 # get channel_secret and channel_access_token from your environment variable
 channel_secret = os.getenv('458612a9aa094d00aa93d3211499024a', None)
 channel_access_token = os.getenv('CoUSULAzNPSSs/BPlXbqnkPAkhYYp3AxdaAxys/XZi2dDwUQvPuq6nvx/TDfVH43YdM1mrhHcnfMrHITchIHVNmaHW289I/SazoC/f++XLocDf7KZesDDO2VHH5LYwX+M3IjMhEGAQhWM4XYE7XjdAdB04t89/1O/w1cDnyilFU=', None)
+print(channel_secret, " - and - ", channel_access_token)
 if channel_secret is None:
     print('Specify LINE_CHANNEL_SECRET as environment variable.')
     sys.exit(1)
